@@ -1,0 +1,40 @@
+.card-container{
+    width: 289px;
+height: 281px;
+top: 98px;
+left: 51px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+margin: auto;
+z-index: 3;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+display: flex;
+flex-direction: column;
+margin-bottom: 1%;
+
+}
+.card-container img{
+    width: 289px;
+    height: 166px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 0;
+    border-radius: 3px;
+    
+}
+.details{
+    width: Fixed (289px)px;
+height: Hug (119px)px;
+top: 166px;
+padding: 16px 18px 16px 18px;
+gap: 9px;
+opacity: 0px;
+z-index: 3;
+opacity: 1;
+}
+
+.card-container::after{
+    border: 1px solid;
+    
+}
